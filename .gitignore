@@ -1,0 +1,16 @@
+/assg3-distrib/
+*.pdf
+*.log
+*.swp
+*.suo
+*.html
+presentation/
+final/
+.idea/
+*.zip
+elm-stuff/**
+!elm-stuff/packages/
+!elm-stuff/packages/Zinggi/
+!elm-stuff/packages/Zinggi/elm-obj-loader/
+!elm-stuff/packages/Zinggi/elm-obj-loader/1.0.3/
+!elm-stuff/packages/Zinggi/elm-obj-loader/1.0.3/**
