@@ -1,8 +1,11 @@
 # FP Rendering Engine
 
-## About
+## TL;DR
+Graphics + Web + Functional Programming
 
-TLDR; [Play it here](https://ferano.io/3d-fp/)
+[Play it here](https://ferano.io/3d-fp/)
+
+## About
 
 The goal of this project is to learn about the intersection of 3 different
 topics; graphics, web, and functional programming. The FP acronym refers to both
