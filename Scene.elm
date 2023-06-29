@@ -107,7 +107,7 @@ update msg model =
                     (model.keys.a , model.keys.s , model.keys.w , model.keys.d)
                     model.lookDir
                     model.pos
-                    0.2
+                    0.08
                 , robot = updateRobot model dt
                 , rot = model.rot + 0.001 * dt}
             WindowResized size -> { model | winSize = size }

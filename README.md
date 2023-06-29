@@ -6,9 +6,10 @@ The intention of this project is to learn about the intersection of 3 different
 topics; graphics, web, and functional programming. It uses Elm with WebGL to
 create a basic 3D first-person scene implementing several lower level graphics
 techniques including matrix transformations to model parent/child local
-transforms, texture mapping, and basic lighting with shaders.
+transforms, texture mapping, and basic lighting with shaders. Consider it the
+humble beginnings of a functional 3D graphics engine.
 
-![alt text](screenshots/elm-fps.png "FPS Scene")
+["FPS Scene"](screenshots/elm-fps.png)
 
 
 ## Update 2023
@@ -25,17 +26,18 @@ This project is Elm 0.18.0, so you need to have that version installed.
 
 To install the binaries manually, use 
 - [Install Binaries](https://sirfitz.medium.com/install-elm-0-18-0-in-2021-3f64ce298801)
+
 If you want to use `npm`, you can follow this;
 - [Install with npm](https://discourse.elm-lang.org/t/downgrade-to-v18/2005/2)
 
-Note that for the `npm`, you will likely need an older version of Node.js, so it
+Note that for `npm`, you will likely need an older version of Node.js, so it
 is recommended to use the [Node Version Manager
 `npm`](https://github.com/nvm-sh/nvm) for that.
 
 
 ## Running
 
-In order to be able to load the textures and models, the website most be served
+In order to be able to load the textures and models, the website must be served
 by an HTTP server because of browser security, see
 [SOP](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)
 and [CORS](https://developer.mozilla.org/en-US/docs/Glossary/CORS) if curious.
