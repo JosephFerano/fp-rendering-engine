@@ -31,7 +31,7 @@ To install the binaries manually, follow this short guide;
 - [Install Binaries](https://sirfitz.medium.com/install-elm-0-18-0-in-2021-3f64ce298801)
 
 If you want to use `npm` instead;
-- `npm install -g elm@elm0.19.0`
+- `npm install -g elm@elm0.18.0`
 
 If you use `npm`, note that you will likely need an older version of Node.js, so
 it is recommended to use [`npm`](https://github.com/nvm-sh/nvm) for that.
@@ -44,9 +44,10 @@ And that should first pull in all the dependencies then generate an `index.html`
 
 ### Issues with dependencies
 
-It seems like one of the dependencies for this project, `Zinggi/elm-obj-loader`,
-is getting a 404. Therefore this dependency will be included in version control,
-on the off chance someone actually wants to build this.
+One of the dependencies of this project, `Zinggi/elm-obj-loader`, is getting a
+404 when Elm tries to pull in all the dependencies during compilation. Therefore
+this dependency will be included in version control, on the off chance someone
+actually wants to build this.
 
 ## Running
 
