@@ -9,8 +9,8 @@ Graphics + Web + Functional Programming
 
 The goal of this project is to learn about the intersection of 3 different
 topics; graphics, web, and functional programming. The FP acronym refers to both
-the fact that it's a First Person camera, as well as being implemented using
-Functional Programming. It uses Elm with WebGL to create a basic 3D first-person
+the fact that it's a *F*irst *P*erson camera, as well as being implemented using
+*F*unctional *P*rogramming. It uses Elm with WebGL to create a basic 3D first-person
 scene implementing several lower level graphics techniques including matrix
 transformations to model parent/child local transforms, texture mapping, and
 basic lighting with shaders. Consider it the humble beginnings of a functional
