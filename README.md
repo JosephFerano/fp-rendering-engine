@@ -9,7 +9,7 @@ techniques including matrix transformations to model parent/child local
 transforms, texture mapping, and basic lighting with shaders. Consider it the
 humble beginnings of a functional 3D graphics engine.
 
-["FPS Scene"](screenshots/elm-fps.png)
+!["FPS Scene"](screenshots/elm-fps.png)
 
 
 ## Update 2023
