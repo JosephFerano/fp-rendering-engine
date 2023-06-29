@@ -2,7 +2,7 @@
 
 ## About
 
-TLDR; [Play it here](https://ferano.io/3d-fp/
+TLDR; [Play it here](https://ferano.io/3d-fp/)
 
 The goal of this project is to learn about the intersection of 3 different
 topics; graphics, web, and functional programming. The FP acronym refers to both
