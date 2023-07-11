@@ -9,15 +9,16 @@ Graphics + Web + Functional Programming
 
 The goal of this project is to learn about the intersection of 3 different
 topics; graphics, web, and functional programming. The FP acronym refers to both
-the fact that it's a **F**irst **P**erson camera, as well as being implemented using
-**F**unctional **P**rogramming. It uses Elm with WebGL to create a basic 3D first-person
-scene implementing several lower level graphics techniques including matrix
-transformations to model parent/child local transforms, texture mapping, and
-basic lighting with shaders. Consider it the humble beginnings of a functional
-3D graphics engine. The last major work done on this was in 2019, however, it
-was just thrown into a git repo without much consideration, along with other
-another small graphics project. I felt it deserved a little bit more TLC than
-that. Here's the original
+the fact that it's a **F**irst **P**erson camera, as well as being implemented
+using **F**unctional **P**rogramming. It uses Elm with WebGL to create a 3D
+first-person scene implementing several lower level graphics techniques
+including matrix transformations to model parent/child local transforms, texture
+mapping, and basic lighting with shaders.
+
+This is a prototype quality level project worked on for a few weeks in 2019.
+However, it was just thrown into a git repo without much consideration, along
+with other another small graphics project. I felt it deserved a little bit more
+TLC, so I decided to spruce it up a little bit. Here's the original
 [project](https://github.com/JosephFerano/elm-graphics).
 
 ## Showcase
@@ -45,8 +46,8 @@ And that should first pull in all the dependencies then generate an `index.html`
 ### Issues with dependencies
 
 One of the dependencies of this project, `Zinggi/elm-obj-loader`, is getting a
-404 when Elm tries to pull in all the dependencies during compilation. Therefore
-this dependency will be included in version control, on the off chance someone
+404 when Elm tries to pull in all the deps during compilation. Therefore this
+dependency will be included in version control, on the off chance someone
 actually wants to build this.
 
 ## Running
@@ -60,7 +61,12 @@ If you have Python 3 installed, simply run `python3 -m http.server`. If you
 would like to use `elm-reactor`, run the command and then click on `index.html`
 in the nice project webview provided.
 
-## Controls
+## How to Play
+
+You can walk around the scene and also control the robot which I have named
+Emperor Sextus, Conqueror of the Luddites.
+
+### Keybindings
 
 - Look Around: `Mouse`
 
@@ -70,9 +76,28 @@ in the nice project webview provided.
 
 - Rotate Robot: `N | M`
 
-- Rotate Robot Arm: `Y | H`
+- Rotate Robot Arm: `H | J`
 
-- Rotate Robot Hand: `U | J`
+- Rotate Robot Hand: `Y | U`
+
+## Takeaways
+
+The Elm WebGL library provides a few abstractions (namely `WebGL.Entity`) that
+help reduce some of the boilerplate usually associated with creating a WebGL
+application from scratch. While it was useful for the purposes of this
+prototype, it remains to be seen if it would scale if this would become a proper
+3D rendering engine.
+
+Despite what might be potentially undiscovered performance issues, Elm was
+pleasant to work with, and it sold me on the idea of a minimalist programming
+language. The touted safety and correctness were noticeable, and using the Elm
+debugger to be able to step back in time through the game was eye-opening in
+showing what's possible when you architect your state management system with
+immutability in mind. It would be interesting to see if a modern game engine
+could switch between the functional, immutable data structures in a debug
+context and the cache-friendly mutable data structures for improved performance
+in a release build. Thus boosting productivity during development, while still
+remaining performant in the hands of players.
 
 
 ## License

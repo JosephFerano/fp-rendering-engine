@@ -134,13 +134,13 @@ updateRobot { robot , keys } dt =
                (keys.left, keys.down, keys.up, keys.right)
                (vec3 (sin rot) (sin rot) (cos rot))
                robot.pos
-               0.1
+               0.03
     , rot = if keys.n then rr robot.rot else if keys.m then rl robot.rot else robot.rot
     , armRot =
-        let angle = if keys.y then rr robot.armRot else if keys.h then rl robot.armRot else robot.armRot
+        let angle = if keys.j then rr robot.armRot else if keys.h then rl robot.armRot else robot.armRot
         in clamp -0.5 2.5 angle
     , handRot =
-        let angle = if keys.u then rr robot.handRot else if keys.j then rl robot.handRot else robot.handRot
+        let angle = if keys.u then rr robot.handRot else if keys.y then rl robot.handRot else robot.handRot
         in clamp -1 1 angle}
 
 view: Model -> Html Msg
