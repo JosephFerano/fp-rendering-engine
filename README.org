@@ -1,4 +1,4 @@
-#+OPTIONS: notoc
+#+OPTIONS: toc: nil
 
 * FP Rendering Engine
 ** TL;DR
