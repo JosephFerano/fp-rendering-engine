@@ -1,3 +1,5 @@
+#+OPTIONS: notoc
+
 * FP Rendering Engine
 ** TL;DR
 Graphics + Web + Functional Programming
