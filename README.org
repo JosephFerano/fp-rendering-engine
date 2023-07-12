@@ -19,7 +19,7 @@ with other another small graphics project. I felt it deserved a little bit more
 TLC, so I decided to spruce it up a little bit. Here's the original [[https://github.com/JosephFerano/elm-graphics][project]].
 
 ** Showcase
-#+caption: "FPS Scene" [[file:screenshots/elm-fps.png]]
+#+caption: [[file:screenshots/elm-fps.png]]
 
 ** Building with Elm 0.18.0
 To install the binaries manually, follow this short guide; - [[https://sirfitz.medium.com/install-elm-0-18-0-in-2021-3f64ce298801][Install Binaries]]
