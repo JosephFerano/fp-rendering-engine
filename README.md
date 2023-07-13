@@ -28,9 +28,9 @@ TLC, so I decided to spruce it up a little bit. Here's the original
 
 
 ## Showcase
-![Walkthrough](screenshots/play1.webm)
+![Walkthrough](https://ferano.io/3d-fp/play1.mp4)
 
-https://git.ferano.io/JosephFerano/fp-rendering-engine/media/branch/master/screenshots/play1.webm
+https://ferano.io/3d-fp/play1.mp4
 
 ![Screenshot](screenshots/elm-fps.png)
 
