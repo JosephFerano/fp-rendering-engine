@@ -29,7 +29,7 @@ TLC, so I decided to spruce it up a little bit. Here's the original
 
 ## Showcase
 ![Walkthrough](screenshots/play1.webm)
-![Screenshot](elm-fps.png)
+![Screenshot](screenshots/elm-fps.png)
 
 ## Building with Elm 0.18.0
 
