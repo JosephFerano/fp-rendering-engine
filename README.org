@@ -21,6 +21,7 @@ with other another small graphics project. I felt it deserved a little bit more
 TLC, so I decided to spruce it up a little bit. Here's the original [[https://github.com/JosephFerano/elm-graphics][project]].
 
 ** Showcase
+#+caption: [[file:screenshots/play1.webm]]
 #+caption: [[file:screenshots/elm-fps.png]]
 
 ** Building with Elm 0.18.0
